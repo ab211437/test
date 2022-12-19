@@ -1,14 +1,7 @@
-#ifndef FUNCS_H
-#define FUNCS_H
-
+#define __FUNCS_H__ 
 double MySum(double, double);
 double MySub(double, double);
 double MyMul(double, double);
-int MyPow(int, int);
-
-
-//<<<<<<< HEAD
-//=======
-
-//>>>>>>> testing
-#endif // FUNCS_H
+double MyDiv(double, double);
+double MyPow(double, double);
+#endif // __FUNCS_H__
