@@ -9,13 +9,18 @@ double MySub(double a, double b)
 {
 return a - b;
 }
-<<<<<<< HEAD
+
 double MyMul (double a, double b)
 {
     return a * b;
-=======
-double MyMul(double a, double b)
+}
+
+int MyPow (int num, int n)
 {
-return a * b;
->>>>>>> testing
+    int res = num;
+    for (int i = 1; i < n; i++)
+    {
+        res *= num;
+    }
+    return res;
 }

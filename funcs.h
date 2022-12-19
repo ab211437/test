@@ -4,8 +4,11 @@
 double MySum(double, double);
 double MySub(double, double);
 double MyMul(double, double);
-<<<<<<< HEAD
-=======
+int MyPow(int, int);
 
->>>>>>> testing
+
+//<<<<<<< HEAD
+//=======
+
+//>>>>>>> testing
 #endif // FUNCS_H
